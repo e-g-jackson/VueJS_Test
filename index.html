@@ -9,7 +9,11 @@
 <body>
 
     <h1>My app!</h1>
-    <div id = "app"></div>
+    <div id = "app">
+        <div>
+            {{ dogFxn(dog.name, dog.type, dog.age) }}
+        </div>
+    </div>
 
     <script src = "https://unpkg.com/vue"></script>
     <script type = "text/javascript" src = "main.js"></script>
